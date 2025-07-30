@@ -23,7 +23,59 @@ h1 {
     color: #FFFFFF;
 }
 
-.container img {
-    margin-top: 6rem;
-    margin-left: 9.75rem;
+h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #FFFFFF;
+
 }
+
+.container img {
+    margin: 0;
+    padding: 0;
+    margin-top: 3rem;
+    margin-left: 8.00rem;
+    
+}
+
+p {
+    font-weight: 500;
+    font-size: 1.5rem; 
+    color: #FFFFFF;
+}
+
+#posts {
+    background-color: #02A28F;   
+    margin-left: 10rem;
+    width: 74.4rem;
+    height: 6rem;
+    border-radius: 0.8rem;
+    
+}
+
+#posts h2 {
+    margin-top: -3.5rem;
+    padding-left: 3rem;
+}
+
+#posts p {
+    padding-top: 2rem;  
+    padding-left: 65rem;
+    text-decoration: underline;
+   
+    
+    
+}
+
+.img-recents {
+    margin-top: 1.5rem;
+    margin-left: 10rem;
+    
+}
+
+#img-professional {
+    margin-top: -19.3rem;
+    margin-left: 38.5rem;
+}
+
+
