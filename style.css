@@ -78,4 +78,29 @@ p {
     margin-left: 38.5rem;
 }
 
+.post-desenvolvimento p{
+    margin-top: 2rem;
+    color: #02A28F;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+#post-saude {
+    margin-top: -3.5rem;
+    margin-left: 38.5rem;
+
+}
+
+#title-mobile {
+    font-weight: 700;
+    color: black;
+}
+
+#title-saude {
+    font-weight: 700;
+    color: black;
+}
+
+
+
 
