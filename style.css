@@ -1,7 +1,8 @@
 html {
     width: 100%;
     height: 100%;
-    font-family: Montserrat;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
     font-size: 10px;
 }
 
@@ -12,6 +13,9 @@ body {
 #presentation-container {
     background-color: #02A28F;
     height: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
 }
 
 h1 {
@@ -78,13 +82,36 @@ p {
     margin-left: 38.5rem;
 }
 
-.post-desenvolvimento p{
+.post-desenvolvimento-saude p{
     margin-top: 2rem;
-    color: #02A28F;
     font-weight: 400;
     font-size: 1.4rem;
+     color: #02A28F;
 }
 
+.post-desenvol-produt img{
+    margin-top: 2rem;
+    margin-right: 2.5rem;
+}
+.post-desenvol-produt p {
+    font-style: 1.4rem;
+    font-weight: 400;
+    color: #02A28F;
+}
+
+.post-desenvol-produt h2 {
+    color: #000000;
+}
+
+#title-monitores {
+    margin-top: -4rem;
+    margin-left: 38.5rem;
+}
+
+#text-produt {
+    margin-top: -3.5rem;
+    margin-left: 38.5rem;
+}
 #post-saude {
     margin-top: -3.5rem;
     margin-left: 38.5rem;
@@ -97,9 +124,49 @@ p {
 }
 
 #title-saude {
+    margin-top: -4.5rem;
+    margin-left: 38.5rem;
     font-weight: 700;
     color: black;
 }
+
+#author-desenvolvimentoMobile {
+    margin-top: -3rem;
+    font-size: 1.4rem;
+    color: #616161;
+}
+
+#author-desenvolvimento {
+    margin-top: -3rem;
+    margin-left: 38.5rem;
+    font-size: 1.4rem;
+    color: #616161;
+}
+
+#author-professional {
+    margin-top: -1rem;
+    margin-left: 38.5rem;
+    font-size: 1.4rem;
+    color: #616161;
+}
+
+#text-desenvolvimentoMobile {
+    margin-top: -3rem;
+    font-size: 1.4rem;
+    color: #000000;
+}
+
+#text-professional {
+    margin-left: 38.5rem;
+    margin-top: -8.5rem;
+    color: #000000;
+}
+
+
+
+
+
+
 
 
 
