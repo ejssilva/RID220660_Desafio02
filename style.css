@@ -18,6 +18,13 @@ body {
     justify-content:flex-start;
 }
 
+#apresentation-posts {
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+
 h1 {
     margin: 0;
     padding-top: 1.3rem;
@@ -35,6 +42,7 @@ h2 {
 }
 
 .container img {
+    max-width: 100%;
     margin: 0;
     padding: 0;
     margin-top: 3rem;
@@ -49,11 +57,16 @@ p {
 }
 
 #posts {
+    max-width: 100%;
     background-color: #02A28F;   
     margin-left: 10rem;
+    margin-top: 45rem;
     width: 74.4rem;
     height: 6rem;
     border-radius: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
     
 }
 
@@ -63,7 +76,7 @@ p {
 }
 
 #posts p {
-    padding-top: 2rem;  
+    padding-top: .5rem;  
     padding-left: 65rem;
     text-decoration: underline;
    
@@ -72,12 +85,14 @@ p {
 }
 
 .img-recents {
+    max-width: 100%;
     margin-top: 1.5rem;
     margin-left: 10rem;
     
 }
 
 #img-professional {
+    max-width: 100%;
     margin-top: -19.3rem;
     margin-left: 38.5rem;
 }
@@ -90,6 +105,7 @@ p {
 }
 
 .post-desenvol-produt img{
+    max-width: 100%;
     margin-top: 2rem;
     margin-right: 2.5rem;
 }
@@ -100,11 +116,14 @@ p {
 }
 
 .post-desenvol-produt h2 {
+    margin-top: .5rem;
     color: #000000;
 }
 
+
+
 #title-monitores {
-    margin-top: -4rem;
+    margin-top: -7rem;
     margin-left: 38.5rem;
 }
 
@@ -144,7 +163,7 @@ p {
 }
 
 #author-professional {
-    margin-top: -1rem;
+    margin-top: -.5rem;
     margin-left: 38.5rem;
     font-size: 1.4rem;
     color: #616161;
@@ -161,6 +180,20 @@ p {
     margin-top: -8.5rem;
     color: #000000;
 }
+
+
+#text-vscode {
+    margin-top: -0.5rem;
+    font-size: 1.4rem;
+    color: #000000;
+
+}
+
+#title-vscode {
+    margin-top: -1rem;
+}
+
+
 
 
 
