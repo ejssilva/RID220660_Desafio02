@@ -199,7 +199,7 @@ footer p {
     text-decoration: underline;
 }
 
-#fundo-populares {
+#fundo-popular {
     display: flex;
     margin-top: 48rem;
     margin-left: 87rem;
@@ -210,9 +210,24 @@ footer p {
     
 }
 
-#fundo-populares h2 {
-    
+#fundo-popular h2 {
+    margin-top: 1rem;
     margin-left: 1rem;  
+    
+}
+
+#fundo-categoria {
+    width: 40rem;
+    height: 4.8rem;
+    margin-top: 4.5rem;
+    border-radius: 1rem;
+    margin-left: 87rem;
+    background-color: #02A28F;
+}
+
+#fundo-categoria h2 {
+    padding-top: 1rem;
+    margin-left: 1rem;
 }
 
 #fundo-populares {
