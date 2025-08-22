@@ -58,7 +58,7 @@ footer p {
 .grid-post-recentes {
     display: grid;
     width: 1rem;
-    margin-left: 8rem;
+    margin-left: 9rem;
     gap: 2rem;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 2fr 2fr;
@@ -130,20 +130,21 @@ footer p {
 
 .grid-item-popular {
     display: grid;
-    width: 40rem;
+    width: 42rem;
     margin-top: 2rem;
     margin-left: 87rem;
-    padding-bottom: 2rem;
+    padding-bottom: 2.8rem;
     border-radius: 1.6rem;
     grid-template-columns: 1fr;
     grid-template-rows: 3fr 1fr;
     gap: 2rem;
-    background-color: #fff;
-    filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.5));
+    background-color: #ffffff;
+    box-shadow: 0 0 1rem rgb(42, 42, 42);
+    /*filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.5));*/
 }
 
 .grid-item-popular h2 {
-    margin-top: -4rem;
+    margin-top: -3.5rem;
     margin-left: 15rem;
     color: #000000;
 }
@@ -158,6 +159,29 @@ footer p {
     margin-left: 1rem;
 }
 
+.post-1 {
+    grid-area: 1 / 1;
+}
+
+.post-1 {
+    grid-area: auto;
+}
+
+.post-2 {
+    grid-area: 1 / 2;
+}
+
+.post-2 {
+    grid-area: auto;
+}
+
+.post-3 {
+    grid-area: 1 / 3;
+}
+
+.post-3 {
+    grid-area: auto;
+}
 
 .topico-categoria li {
     margin-left: 84rem;
@@ -203,7 +227,7 @@ footer p {
     display: flex;
     margin-top: 48rem;
     margin-left: 87rem;
-    width: 40rem;
+    width: 42rem;
     height: 4.8rem;
     border-radius: 1rem;
     background-color: #02A28F;
@@ -212,14 +236,14 @@ footer p {
 
 #fundo-popular h2 {
     margin-top: 1rem;
-    margin-left: 1rem;  
+    margin-left: 2rem;  
     
 }
 
 #fundo-categoria {
-    width: 40rem;
-    height: 4.8rem;
-    margin-top: 4.5rem;
+    width: 42rem;
+    height: 5rem;
+    margin-top: 2.8rem;
     border-radius: 1rem;
     margin-left: 87rem;
     background-color: #02A28F;
@@ -244,6 +268,9 @@ footer p {
 @media only screen and (max-width: 768px){
     h1 {
         font-size: 2.4rem;
+    }
+    .grid-post-recentes {
+        grid-template-columns: 1fr;
     }
   
 }
