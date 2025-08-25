@@ -274,8 +274,6 @@ footer p {
     background-color: #02A28F;
 }
 
-
-
 #list-numero {
     margin-top: -3rem;
     margin-left: 118rem;
@@ -286,10 +284,28 @@ footer p {
         margin-left: -7rem;
     }
     h1 {
+        font-weight: 700;
         text-align: center;
         font-size: 2.4rem;
     }
 
+    #presentation-container {
+        
+        width: 59rem;
+        padding-right: 8.5rem;
+    }
+
+    #presentation-container img {
+    }
+
+     .container img {
+        width: 100%;
+        background-image: none;
+        content: url("assets/imgCityMobile.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
 
     .grid-post-recentes {
         grid-template-columns: 1fr;
@@ -309,7 +325,9 @@ footer p {
     }
 
     #fundo-post-recentes {
-        width: 39.5rem;
+        width: 100%;
+        margin-top: 53rem;
+        
     }
 
      #fundo-post-recentes h2{
@@ -319,17 +337,18 @@ footer p {
 
      #fundo-post-recentes p{
         padding-top: .5rem;
-        margin-left: -35rem; 
+        margin-left: -23rem; 
     }
 
     footer {
-        width: 55rem;
+        width: 67.5rem;
         margin-top: 4rem;
         
     }
 
     footer p {
-        margin-left: 20rem;
+        
+        margin-left: 30rem;
         
         
     }
